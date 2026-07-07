@@ -19,6 +19,7 @@ modules:
 
   - type: dnf
     repos:
+      cleanup: true
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
@@ -36,5 +37,4 @@ modules:
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
         - gnome-tour
         - remote-viewer
-      cleanup: true
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
