@@ -1,5 +1,5 @@
 > [!Caution]
-> _This project does not have a proper maintenance schedule. try at your own discretion._
+> _This project does not have a proper maintenance schedule yet. try at your own discretion._
 
 To rebase an existing atomic Fedora installation to the latest build:  
 1. First rebase to the unsigned image, to get the proper signing keys and policies installed:
