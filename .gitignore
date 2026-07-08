@@ -1,4 +1,4 @@
-~lock*
+.~lock*
 cosign.key
 cosign.private
 /Containerfile
