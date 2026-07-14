@@ -26,7 +26,6 @@ modules:
         - atim/starship
     install:
       packages:
-        - micro
         - starship
         - brave-origin
     remove:
@@ -39,4 +38,5 @@ modules:
         - remote-viewer
         - gnome-software
         - malcontent-control
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
