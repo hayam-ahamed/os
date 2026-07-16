@@ -22,7 +22,6 @@ modules:
       cleanup: true
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-      copr:
     install:
       packages:
         - brave-origin
